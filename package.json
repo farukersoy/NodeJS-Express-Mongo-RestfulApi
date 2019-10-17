@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-express-mongo-restfulapi",
+  "version": "1.0.0",
+  "description": "Building a restful api with nodeJS express mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcgzn/NodeJS-Express-Mongo-RestfulApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcgzn/NodeJS-Express-Mongo-RestfulApi/issues"
+  },
+  "homepage": "https://github.com/gcgzn/NodeJS-Express-Mongo-RestfulApi#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "nodemon": "^1.19.4"
+  }
+}
